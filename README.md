@@ -11,8 +11,10 @@ qrcode
 Pillow
 pytesseract (for the OCR experiment)
 Features
+
 1. Text QR Code
 Generates a QR code from user-provided text or data.
+
 
 2. URL QR Code
 Creates a QR code for a URL and checks whether it starts with HTTP or HTTPS.
@@ -36,9 +38,12 @@ pip install "qrcode[pil]"
 pip install pytesseract
 The OCR experiment also requires the Tesseract OCR application to be installed separately.
 
+
 #How to Run
+
 Install the required dependencies.
 Open QRcodeproject.ipynb in Jupyter Notebook.
+
 Run the cells in order.
 Enter the requested text, URL, or UPI details.
 The generated QR code is saved as a PNG image.
